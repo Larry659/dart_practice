@@ -3,7 +3,7 @@ void main(){
 
   print("my list");
   List<int> scores = [56,78,65,94,36];
-  var scores = [56,78,65,94,36]; //list
+ // var scores = [56,78,65,94,36]; //list
   //print(scores[0]);
   //print(scores[3] + scores[4]);
 scores[2]=50;// to set a new value
