@@ -1,4 +1,3 @@
-import 'dart:math';
 
 void main() {
   var salad = MenuItem("salad", 30.8);

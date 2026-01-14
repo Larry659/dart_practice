@@ -1,5 +1,5 @@
 void main() async {
-  // fetchPost().then((p) {
+  // fetchPost().then((p) {// future
   //   print(p.name);
   //   print(p.userId);
   // });
@@ -9,7 +9,8 @@ void main() async {
   print(post.userId);
 }
 
-Future<Post> fetchPost() {
+Future<Post> fetchPost() {//asynchronous fetchingdart pub add http
+
   // future explained
   const delay = Duration(seconds:5);
   return Future.delayed(delay, () {
