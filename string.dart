@@ -8,4 +8,7 @@ void main() {
   print(name.endsWith("u")); //true
   print(name.replaceRange(1, 3, "**"));
 
+  String name2 = "Agbalagba";
+  print(name2.compareTo(name));
+
 }
